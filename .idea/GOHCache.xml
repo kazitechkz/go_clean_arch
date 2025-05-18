@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="AppConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/app_config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="BaseRepository">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/repository/base_repository.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CreateRoleUseCase">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/use_case/role_case/create_role_case.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GenericFilter">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/filter/base_filter.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetRoleByIDUseCase">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/use_case/role_case/get_role_case.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetRoleByValueUseCase">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/use_case/role_case/get_role_by_value_case.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PaginatedResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/repository/base_repository.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RoleCreateDTO">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/dto/role_dto/create_dto.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RoleEntity">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/domain/entities/role_entity.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RoleRepo">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/repository/role_repository/role_repository.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RoleResponseDTO">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/dto/role_dto/response_dto.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RoleSeeder">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/seeders/role_seeder/role_seeder.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RoleUpdateDTO">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/dto/role_dto/update_dto.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/cmd/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747559624454" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/config/app_config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747558668527" />
+              <option name="schema">
+                <list>
+                  <option value="AppConfig" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/config/i18n_config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747466128491" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/docs/docs.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747557016948" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/db/gorm_db.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747473410348" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/db/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747559624451" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/delivery/http/base_http.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747558668607" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/delivery/http/role_http/handler.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747563758151" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/delivery/http/role_http/routes.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747563663959" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/domain/entities/permission_entity.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747475739933" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/domain/entities/role_entity.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747479513605" />
+              <option name="schema">
+                <list>
+                  <option value="RoleEntity" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/dto/role_dto/create_dto.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747550615939" />
+              <option name="schema">
+                <list>
+                  <option value="RoleCreateDTO" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/dto/role_dto/response_dto.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747561041571" />
+              <option name="schema">
+                <list>
+                  <option value="RoleResponseDTO" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/dto/role_dto/update_dto.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747550615909" />
+              <option name="schema">
+                <list>
+                  <option value="RoleUpdateDTO" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/filter/base_filter.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747565172892" />
+              <option name="schema">
+                <list>
+                  <option value="GenericFilter" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/repository/base_repository.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747565336379" />
+              <option name="schema">
+                <list>
+                  <option value="BaseRepository" />
+                  <option value="PaginatedResult" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/repository/role_repository/role_repository.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747549801610" />
+              <option name="schema">
+                <list>
+                  <option value="RoleRepo" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/seeders/base_seeder.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747476906121" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/seeders/role_seeder/role_seeder.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747477427901" />
+              <option name="schema">
+                <list>
+                  <option value="RoleSeeder" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/seeders/seeder_interface.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747476366184" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/use_case/role_case/create_role_case.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747557016924" />
+              <option name="schema">
+                <list>
+                  <option value="CreateRoleUseCase" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/use_case/role_case/get_role_by_value_case.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747566177128" />
+              <option name="schema">
+                <list>
+                  <option value="GetRoleByValueUseCase" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/use_case/role_case/get_role_case.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747560816524" />
+              <option name="schema">
+                <list>
+                  <option value="GetRoleByIDUseCase" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/use_case/role_case/update_role_case.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747564102637" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/shared/app_const/app_http_constants.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747558927140" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/shared/app_const/db_value_constants.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747475791243" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/shared/app_const/env_const.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747558668584" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/shared/app_const/table_constants.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747473580859" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/shared/utils/env_utils.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1747566067870" />
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="app_config" value="AppConfig" />
+        <entry key="base_repository" value="BaseRepository" />
+        <entry key="create_role_use_case" value="CreateRoleUseCase" />
+        <entry key="generic_filter" value="GenericFilter" />
+        <entry key="get_role_by_id_use_case" value="GetRoleByIDUseCase" />
+        <entry key="get_role_by_value_use_case" value="GetRoleByValueUseCase" />
+        <entry key="paginated_result" value="PaginatedResult" />
+        <entry key="role_create_dto" value="RoleCreateDTO" />
+        <entry key="role_entity" value="RoleEntity" />
+        <entry key="role_repo" value="RoleRepo" />
+        <entry key="role_response_dto" value="RoleResponseDTO" />
+        <entry key="role_seeder" value="RoleSeeder" />
+        <entry key="role_update_dto" value="RoleUpdateDTO" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1747558762097" />
+  </component>
+</project>

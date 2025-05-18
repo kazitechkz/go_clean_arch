@@ -1,0 +1,45 @@
+# Go build artifacts
+/bin/
+/build/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Go related
+*.test
+*.out
+*.cover
+*.log
+
+# Dependency directories
+vendor/
+go.sum
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.iml
+
+# Environment/config
+.env
+*.local
+
+# Swagger auto-gen
+docs/*
+!docs/.gitkeep
+
+# Fiber cache / runtime
+fiber.log
+
+# Others
+*.swp
+*.swo
+*.bak
+*.tmp

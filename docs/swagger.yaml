@@ -1,0 +1,153 @@
+definitions:
+  entities.RoleEntity:
+    properties:
+      created_at:
+        type: string
+      id:
+        type: integer
+      is_active:
+        type: boolean
+      title_en:
+        maxLength: 255
+        type: string
+      title_kk:
+        type: string
+      title_ru:
+        type: string
+      updated_at:
+        type: string
+      value:
+        type: string
+    required:
+    - is_active
+    - title_kk
+    - title_ru
+    - value
+    type: object
+  role_dto.RoleCreateDTO:
+    properties:
+      is_active:
+        type: boolean
+      title_en:
+        maxLength: 255
+        type: string
+      title_kk:
+        maxLength: 255
+        type: string
+      title_ru:
+        maxLength: 255
+        type: string
+      value:
+        maxLength: 300
+        type: string
+    required:
+    - title_kk
+    - title_ru
+    - value
+    type: object
+  role_dto.RoleResponseDTO:
+    properties:
+      created_at:
+        type: string
+      id:
+        type: integer
+      is_active:
+        type: boolean
+      title_en:
+        type: string
+      title_kk:
+        type: string
+      title_ru:
+        type: string
+      updated_at:
+        type: string
+      value:
+        type: string
+    type: object
+info:
+  contact: {}
+paths:
+  /api/role/create:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: Role Data
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/role_dto.RoleCreateDTO'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            $ref: '#/definitions/entities.RoleEntity'
+      summary: Create a new role_case
+      tags:
+      - roles
+  /api/role/get-by-value/{value}:
+    get:
+      description: Возвращает одну роль по её строковому идентификатору
+      parameters:
+      - description: Value роли
+        in: path
+        name: value
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/role_dto.RoleResponseDTO'
+        "400":
+          description: Bad Request
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "404":
+          description: Not Found
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Получить роль по Value
+      tags:
+      - roles
+  /api/role/get/{id}:
+    get:
+      description: Возвращает одну роль по её идентификатору
+      parameters:
+      - description: ID роли
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/role_dto.RoleResponseDTO'
+        "400":
+          description: Bad Request
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "404":
+          description: Not Found
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Получить роль по ID
+      tags:
+      - roles
+swagger: "2.0"
